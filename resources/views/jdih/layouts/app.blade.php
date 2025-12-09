@@ -19,8 +19,10 @@
 	<!-- Global stylesheets -->
 	<link href="{{ asset('assets/jdih/fonts/inter/inter.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/jdih/icons/phosphor/styles.min.css') }}" rel="stylesheet" type="text/css">
-	<link href="{{ asset('assets/jdih/css/ltr/all.min.css') }}" rel="stylesheet" type="text/css">
+	{{-- <link href="{{ asset('assets/jdih/css/ltr/all.min.css') }}" rel="stylesheet" type="text/css"> --}}
+	<link href="{{ asset('assets/jdih/css/ltr/all.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('assets/jdih/css/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/jdih/css/tw.css') }}" rel="stylesheet" type="text/css">
     @isset ($styles)
         @foreach ($styles as $style)
             <link href="{{ asset($style) }}" rel="stylesheet" type="text/css">

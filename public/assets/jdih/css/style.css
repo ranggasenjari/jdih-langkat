@@ -63,7 +63,7 @@ a.text-body:focus {
     left: 5px !important;
 }
 
-.overlay::before {
+/* .overlay::before[data-color-theme=dark] {
     position: absolute;
     content: '';
     left: 0px;
@@ -72,6 +72,27 @@ a.text-body:focus {
     bottom: 0px;
     background-color: rgba(37,43,54,0.7);
     z-index: 2;
+} */
+
+.overlay {
+    background-color: midnightblue;
+    background-image: url(/assets/jdih/images/backgrounds/panel_bg.png);
+    background-size: contain;
+    min-height: 380px;
+}
+
+.overlay[data-color-theme=dark] {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #454d5bbf;
+    z-index: 2;
+    background-image: url(/assets/jdih/images/backgrounds/panel_bg.png);
+    background-size: contain;
+    min-height: 380px;
 }
 
 .lift {

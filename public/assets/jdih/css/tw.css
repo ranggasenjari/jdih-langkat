@@ -1,0 +1,17 @@
+/* @tailwind base; */
+
+.rg-self-center {
+  align-self: center
+}
+
+.rg-rounded-3xl {
+  border-radius: 1.5rem
+}
+
+.rg-rounded-xl {
+  border-radius: 0.75rem
+}
+
+.rg-align-middle {
+  vertical-align: middle
+}

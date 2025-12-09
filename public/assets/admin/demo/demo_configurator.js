@@ -11,7 +11,7 @@
 // ------------------------------
 
 (function () {
-    ((localStorage.getItem('theme') == 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) || localStorage.getItem('theme') == 'dark') && document.documentElement.setAttribute('data-color-theme', 'dark');
+    ((localStorage.getItem('theme') == 'auto' && window.matchMedia('(prefers-color-scheme: light)').matches) || localStorage.getItem('theme') == 'light') && document.documentElement.setAttribute('data-color-theme', 'light');
 })();
 
 

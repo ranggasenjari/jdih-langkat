@@ -9,7 +9,7 @@
             </div>
         </div>
     @else
-        <div class="overlay" style="background: linear-gradient(135deg, #232526 0%, #414345 100%); min-height: 380px;"></div>
+        <div class="overlay"></div>
     @endif
 
     <div class="container" style="margin-top: -320px; height: 380px; z-index: 2; position: relative;">
@@ -30,16 +30,6 @@
                         </div>
                     </div>
                     <div class="col-xl-6 text-center">
-                        <!-- <div class="row mt-5">
-                            <div class="col">
-                                <img src="{{ $appLogoUrl }}" height="86">
-                            </div>
-                            <div class="col">
-                                <img src="{{ asset('assets/jdih/images/backgrounds/gubwagub.png') }}" class="img-fluid" height="86">
-                            </div>
-                        </div>
-                        <img src="{{ asset('assets/jdih/images/backgrounds/nangunsatkerthi2.png') }}" class="img-fluid my-4 px-5">
-                        <h3 class="fw-bold text-white"><?php echo $company;?></h3> -->
                     </div>
                 </div>
             </div>

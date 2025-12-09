@@ -18,6 +18,7 @@
 	<link href="{{ asset('assets/admin/icons/phosphor/styles.min.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/admin/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('assets/admin/css/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/admin/css/tw.css') }}" rel="stylesheet" type="text/css">
     @isset ($styles)
         @foreach ($styles as $style)
             <link href="{{ asset($style) }}" rel="stylesheet" type="text/css">

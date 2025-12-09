@@ -5,16 +5,16 @@
 @include('jdih.homepage.slide')
 
 <!-- Welcome -->
-<section class="bg-dark">
-    <div class="container pt-5 pb-0">
-        <div class="content-wrapper">
-            <div class="content row mb-5">
-                <div class="col-12 col-md-3">
-                    <img src="{{ asset('assets/admin/images/demo/users/kabag.jpg') }}" class="rounded-circle d-block m-auto" height="180">
+<section class="bg-dark rg-rounded-3xl mx-5">
+    <div class="container pt-3 pb-0">
+        <div class="content-wrapper rg-align-middle">
+            <div class="content row mb-3">
+                <div class="col-12 col-md-3 rg-self-center">
+                    <img src="{{ asset('assets/admin/images/demo/users/kabag.jpg') }}" class="rg-rounded-xl d-block m-auto" alt="Ka. Bag. Hukum Setdakab. Langkat" width="150">
                 </div>
-                <div class="col-12 col-md-9 text-light">
+                <div class="col-12 col-md-9 text-light rg-self-center">
                     <h2 class="mb-3 text-handwriting">Sekapur Sirih</h2>
-                    <p class="fs-lg">Situs ini merupakan situs resmi JDIH Kab. Langkat. Situs ini memuat data dan informasi-informasi produk hukum baik produk hukum pusat maupun daerah. Disamping itu, situs ini memuat pula informasi mengenai buku-buku referensi tentang hukum yang dimiliki oleh Kabupaten Langkat.<br></p>
+                    <p class="fs-lg">Selamat datang di JDIH Kabupaten Langkat, sistem ini menyediakan layanan informasi hukum di Kabupaten Langkat secara terpadu dan berkesinambungan. Layanan ini memungkinkan siapa saja untuk mengakses dokumen peraturan daerah serta dokumen hukum lainnya di wilayah Kabupaten Langkat dengan mudah, cepat, dan akurat. <br></p>
                     <div class="author mt-4">
                         <span class="fw-semibold fs-lg">ALIMAT TARIGAN, S.H.</span><br>
                         <span class="text-light fs-sm">Ka. Bag. Hukum Setdakab. Langkat</span>
